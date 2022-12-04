@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+    <style>
+        header,ul{
+            margin: 0%;
+            padding: 0%;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .clearfix::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .menu{
+            width: 100%;
+            height: 60px;
+            background-color: aquamarine;
+        }
+        .menu .menu-con{
+            width: 1000px;
+            height: 60px;
+            margin: 0px auto;
+        }
+      
+        .menu .menu-con ul li{
+            float: left;
+          position: relative;
+            height: 60px;
+        }
+        .menu .menu-con ul li a{
+            height: 60px;
+            display: block;
+         
+            padding: 0px 40px;  
+            line-height: 60px;
+            color: rosybrown;
+        }
+        .menu .menu-con ul li:hover{
+            background-color: aqua;
+        }
+        .menu .menu-con ul li div{
+            width: 200px;
+            height: 150px;
+            background-color: aquamarine;
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            margin-left: -100px;
+            display: none;
+        }
+        .menu .menu-con ul li div a{
+            height: 40px;
+            line-height: 40px;
+            padding: 0%;
+            text-align: center;
+            font-size: 14px;
+        }
+        .menu .menu-con ul li div a:hover{
+            background-color: aqua;
+        }
+        .menu .menu-con ul li:hover div{
+            display: block;
+
+        }
+        .good{
+            color: red;
+            width: 100%;
+            height: 350px;
+            background: url(https://img1.baidu.com/it/u=1236409919,3814321988&fm=253&fmt=auto&app=138&f=JPEG?w=828&h=500);
+        }
+        .one{
+            height: 100%;
+            width: 10%;
+            background-color: bisque;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        body{
+            width: 90%;
+            margin: 0 10%;
+            
+            
+        }
+        .good{
+            text-align: center;
+        }
+    
+        
+        main p{
+            font-size: 88px;
+        }
+        footer{
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="good">
+    一个matlab摆烂网站
+</div>
+    <div class="menu">
+        <div class="menu-con">
+            <ul class="clearfix">
+                <li>  <a href="#">   算法</a>
+                <div>
+                    <a href="#">遗传算法</a> 
+                    <a href="#">粒子群算法</a>
+                    <a href="#">蚁群算法</a>
+                </div></li>
+                <li>  <a href="#">   数据</a>
+                    <div>
+                        <a href="#">逻辑型</a> 
+                        <a href="#">结构体类型</a>
+                        <a href="#">单元数组</a>
+                    </div></li>
+                <li>  <a href="#">   结构</a>
+                    <div>
+                        <a href="#">顺序结构</a> 
+                        <a href="#">循环结构</a>
+                        <a href="#">分支结构</a>
+                    </div></li>
+                <li>  <a href="#">   图解</a>
+                    <div>
+                        <a href="#">一维</a> 
+                        <a href="#">二维</a>
+                        <a href="#">三维</a>
+                    </div></li>
+                <li>  <a href="#">   其他</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <p>
+        Abstract
+    </p>
+    <p>Nineteen years of hourly tide readings at Honolulu, Hawaii, and Newlyn, England, are analysed without astronomical prejudice as to what frequencies are present, and what are not, thus allowing for background noise. The method consists of generating various complex input functions ci, (t) for the same time interval as the recorded tide £(t), and of determining the associated lag weights w in the convolutions ζ^(t)=∑i∑S⁡wisci(t−τs)+∑ij∑ss′⁡wijss′ci(t−τs)cj(t−τs′)+... by the condition ((£—£)2) = minimum. The two expansions represent linear and bilinear processes; the Fourier transforms of w for any chosen i (or ij) are the linear (or bilinear) admittances. Input functions are the (time variable) spherical harmonics of the gravitational potential and of radiant flux on the Earth’s surface; these functions are numerically generated hour by hour, directly from the Kepler-Newton laws and the known orbital constants of Moon and Sun, without time-harmonic expansions (unlike the harmonic method of Kelvin-Darwin-Doodson). The radiative input is required to predict non-gravitational tides, and it allows for the essential distinction that the Earth is opaque to radiation and transparent to gravitation.</p>
+</main>
+<div class="one">
+    <div><span class="lthb"><b>学与不学</b></span>
+    <ol>
+        <span class="olfont">
+        <li>学</li>
+        <li>不学</li></span>
+    </ol>
+</div>
+</div>
+<footer>
+    <nav>
+        <p>网站仅供个人参考</p>
+        <p>如有论文雷同，就是本网站抄它的</p>
+    </nav>
+</footer>
+</body>
+</html>
